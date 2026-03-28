@@ -59,17 +59,19 @@ window.display();
 ⚙️ Building the Project
 Clone the repository:
 
-Bash
-git clone [https://github.com/YOUR_USERNAME/SFML_GUI.git](https://github.com/YOUR_USERNAME/SFML_GUI.git)
+```bash
+git clone [https://github.com/Ktyzerr/SFML_GUI.git](https://github.com/YOUR_USERNAME/SFML_GUI.git)
 cd SFML_GUI
+```
 Configure with CMake:
 If SFML is not in your standard system path, provide it via SFML_DIR:
-
-Bash
+```Bash
 cmake -B build -DSFML_DIR="C:/path/to/SFML/lib/cmake/SFML"
+```
 Build:
 
-Bash
+```Bash
 cmake --build build
+```
 📄 License
 This project is licensed under the MIT License.
