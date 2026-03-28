@@ -24,14 +24,14 @@ SFML_GUI/
 ├── CMakePresets.json      # Local build presets (ignored by git)
 └── README.md              # You are here!
 ```
-##🛠 Prerequisites
-Compiler: C++20 compatible (MSVC 2022, GCC 11+, Clang 12+).
+## 🛠 Prerequisites
+* Compiler: C++20 compatible (MSVC 2022, GCC 11+, Clang 12+).
 
-Framework: SFML 3.0.2 or higher.
+* Framework: SFML 3.0.2 or higher.
 
-Build System: CMake 3.25+.
+* Build System: CMake 3.25+.
 
-##💻 Quick Start
+# 💻 Quick Start
 Here is a simple example of how to create a UI with a panel and buttons:
 
 ```cpp
@@ -57,20 +57,20 @@ window.clear();
 manager.draw();
 window.display();
 ```
-##⚙️ Building the Project.
+## ⚙️ Building the Project.
 
-Clone the repository:
+* Clone the repository:
 
 ```bash
 git clone [https://github.com/Ktyzerr/SFML_GUI.git](https://github.com/YOUR_USERNAME/SFML_GUI.git)
 cd SFML_GUI
 ```
-Configure with CMake:
+* Configure with CMake:
 If SFML is not in your standard system path, provide it via SFML_DIR:
 ```Bash
 cmake -B build -DSFML_DIR="C:/path/to/SFML/lib/cmake/SFML"
 ```
-Build:
+* Build:
 
 ```Bash
 cmake --build build
