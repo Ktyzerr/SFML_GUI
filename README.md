@@ -1,8 +1,3 @@
-﻿Конечно! Вот тебе полный, готовый текст для README.md. Я его немного подправил под твою финальную структуру, чтобы всё выглядело по-взрослому.
-
-Скопируй всё, что находится между линиями ниже:
-
-НАЧАЛО ФАЙЛА
 Markdown
 # SFML_GUI (v0.1-alpha)
 
@@ -29,6 +24,7 @@ SFML_GUI/
 ├── CMakeLists.txt         # Root CMake configuration
 ├── CMakePresets.json      # Local build presets (ignored by git)
 └── README.md              # You are here!
+```
 🛠 Prerequisites
 Compiler: C++20 compatible (MSVC 2022, GCC 11+, Clang 12+).
 
