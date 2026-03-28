@@ -34,7 +34,7 @@ Build System: CMake 3.25+.
 💻 Quick Start
 Here is a simple example of how to create a UI with a panel and buttons:
 
-C++
+```cpp
 #include <SFML_GUI/UIManager.h>
 #include <SFML_GUI/widgets/widgets.hpp>
 
@@ -56,6 +56,7 @@ while (const std::optional event = window.pollEvent()) {
 window.clear();
 manager.draw();
 window.display();
+```
 ⚙️ Building the Project
 Clone the repository:
 
