@@ -1,4 +1,3 @@
-Markdown
 # SFML_GUI (v0.1-alpha)
 
 A lightweight, modern, and hierarchical UI library built for **SFML 3.0.2+**. 
